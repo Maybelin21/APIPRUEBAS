@@ -92,7 +92,7 @@ namespace APIPRUEBAS.Controllers
 
 		}
 
-
+		//Esta es una prueba en comentario
 		[HttpPut]
 		[Route("Editar")]
 		public IActionResult Editar([FromBody] Producto objeto)
